@@ -1,1 +1,20 @@
-{}
+{
+    "description": "Synthetic demo data - no real student information",
+    "purpose": "Demonstration only - not for production use",
+    "version": "2.0",
+    "data_source": "Algorithmically generated",
+    "students": [
+        { "id": "SYN001", "name": "Learner A", "className": "Class A", "attendanceRate": 45, "academicAverage": 38, "feePaymentRate": 25, "subjectsOfConcern": ["Mathematics", "Language Arts", "Science"], "previousAverage": 52 },
+        { "id": "SYN002", "name": "Learner B", "className": "Class A", "attendanceRate": 68, "academicAverage": 55, "feePaymentRate": 70, "subjectsOfConcern": ["Mathematics"], "previousAverage": 58 },
+        { "id": "SYN003", "name": "Learner C", "className": "Class A", "attendanceRate": 92, "academicAverage": 78, "feePaymentRate": 95, "subjectsOfConcern": [], "previousAverage": 75 },
+        { "id": "SYN004", "name": "Learner D", "className": "Class B", "attendanceRate": 35, "academicAverage": 42, "feePaymentRate": 15, "subjectsOfConcern": ["Mathematics", "Language Arts", "Science", "Social Studies"], "previousAverage": 48 },
+        { "id": "SYN005", "name": "Learner E", "className": "Class B", "attendanceRate": 72, "academicAverage": 61, "feePaymentRate": 50, "subjectsOfConcern": ["Science"], "previousAverage": 59 },
+        { "id": "SYN006", "name": "Learner F", "className": "Class C", "attendanceRate": 55, "academicAverage": 48, "feePaymentRate": 30, "subjectsOfConcern": ["Mathematics", "Physics"], "previousAverage": 54 },
+        { "id": "SYN007", "name": "Learner G", "className": "Class C", "attendanceRate": 88, "academicAverage": 71, "feePaymentRate": 85, "subjectsOfConcern": [], "previousAverage": 68 },
+        { "id": "SYN008", "name": "Learner H", "className": "Class D", "attendanceRate": 42, "academicAverage": 39, "feePaymentRate": 20, "subjectsOfConcern": ["Mathematics", "Physics", "Chemistry"], "previousAverage": 46 },
+        { "id": "SYN009", "name": "Learner I", "className": "Class D", "attendanceRate": 78, "academicAverage": 65, "feePaymentRate": 60, "subjectsOfConcern": ["Chemistry"], "previousAverage": 63 },
+        { "id": "SYN010", "name": "Learner J", "className": "Class D", "attendanceRate": 60, "academicAverage": 52, "feePaymentRate": 45, "subjectsOfConcern": ["Mathematics", "Language Arts"], "previousAverage": 56 },
+        { "id": "SYN011", "name": "Learner K", "className": "Class D", "attendanceRate": 85, "academicAverage": 74, "feePaymentRate": 90, "subjectsOfConcern": [], "previousAverage": 71 },
+        { "id": "SYN012", "name": "Learner L", "className": "Class D", "attendanceRate": 48, "academicAverage": 44, "feePaymentRate": 10, "subjectsOfConcern": ["Mathematics", "Physics", "Chemistry", "Biology"], "previousAverage": 50 }
+    ]
+}
