@@ -826,3 +826,320 @@ pre {
         grid-template-columns: 1fr;
     }
 }
+
+.ml-status-bar {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    border-radius: var(--border-radius);
+}
+
+.ml-status-left, .ml-status-center, .ml-status-right {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.ml-label {
+    font-weight: 600;
+}
+
+.ml-status {
+    background: rgba(255,255,255,0.2);
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+}
+
+.ai-badge {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+.ml-card {
+    border-left-color: #9b59b6;
+}
+
+.ml-tag {
+    font-size: 0.65rem;
+    background: #e9ecef;
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    margin-top: 0.5rem;
+    color: #666;
+}
+
+.dropout-prediction {
+    background: rgba(155, 89, 182, 0.1);
+    color: #9b59b6;
+}
+
+.feature-importance {
+    background: rgba(52, 152, 219, 0.1);
+    color: #3498db;
+}
+
+.ml-confidence-banner {
+    background: #e8f4fd;
+    border-radius: var(--border-radius);
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #3498db;
+}
+
+.confidence-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.confidence-bar {
+    flex: 1;
+    height: 6px;
+    background: #ddd;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.confidence-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #27ae60, #2ecc71);
+    border-radius: 3px;
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.model-badge {
+    font-size: 0.7rem;
+    background: #9b59b6;
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+}
+
+.chart-footer {
+    font-size: 0.7rem;
+    color: #666;
+    margin-top: 0.75rem;
+    text-align: center;
+}
+
+.ml-badge-small {
+    font-size: 0.7rem;
+    background: #e9ecef;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    color: #666;
+}
+
+.dropout-prob {
+    min-width: 80px;
+}
+
+.dropout-prob strong {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.prob-bar {
+    height: 6px;
+    background: #eee;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.prob-bar div {
+    height: 100%;
+    border-radius: 3px;
+}
+
+.confidence-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.75rem;
+    color: #f39c12;
+}
+
+.confidence-value {
+    color: #666;
+}
+
+.factor-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    background: #f8f9fa;
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    margin: 0.1rem;
+}
+
+.ml-intervention {
+    border-left: 4px solid #9b59b6;
+}
+
+.intervention-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.ml-confidence-chip {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.7rem;
+}
+
+.risk-summary {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.risk-badge-large {
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.dropout-probability {
+    flex: 1;
+}
+
+.prob-bar-large {
+    height: 8px;
+    background: #eee;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.prob-bar-large div {
+    height: 100%;
+    background: #e74c3c;
+    border-radius: 4px;
+}
+
+.ml-explainability {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.feature-contributions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.feature-contributions div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.contrib-bar {
+    height: 6px;
+    background: #3498db;
+    border-radius: 3px;
+    transition: width 0.3s;
+}
+
+.insights-panel {
+    padding: 1rem;
+}
+
+.insights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.insight-card {
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    box-shadow: var(--box-shadow);
+    border: 1px solid #e9ecef;
+}
+
+.insight-card i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.insight-card h3 {
+    margin-bottom: 1rem;
+    color: var(--dark-color);
+}
+
+.metric-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.75rem 0;
+    font-size: 0.9rem;
+}
+
+.metric-row strong {
+    color: var(--primary-color);
+}
+
+.progress-bar {
+    flex: 1;
+    height: 6px;
+    background: #eee;
+    border-radius: 3px;
+    margin-left: 0.5rem;
+    overflow: hidden;
+}
+
+.progress-bar div {
+    height: 100%;
+    background: var(--success-color);
+    border-radius: 3px;
+}
+
+.feature-list {
+    margin-top: 0.5rem;
+}
+
+.feature-list > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+    font-size: 0.85rem;
+}
+
+.feature-list .bar {
+    height: 6px;
+    background: #3498db;
+    border-radius: 3px;
+    margin-left: 0.5rem;
+}
