@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Credentials - NEVER COMMIT
+*.key
+*.pem
+service-account.json
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
